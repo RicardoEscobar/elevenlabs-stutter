@@ -45,7 +45,8 @@ if __name__ == "__main__":
     # Get OpenAi client
     client = load()
 
-    # Create a voice
+    # Create a voice, if you have issues with the voice_id, check the documentation or use this line instead:
+    # voice = "Nicole"
     voice = elevenlabs.Voice(voice_id="chQ8GR2cY20KeFjeSaXI")
 
     user_prompt = "Summarize the \"Little Red Riding Hood\" story in Spanish."
