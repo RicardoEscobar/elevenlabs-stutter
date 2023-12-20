@@ -37,6 +37,8 @@ To use this script, you need to create a `.env` file on the root directory of th
 ```
 OPENAI_API_KEY=your_api_key
 ELEVENLABS_API_KEY=your_api_key
+# MPV Player path. Example: MPV_PATH=C:\\mvp
+MPV_PATH=C:\\mvp
 ```
 
 Then you can run the script with the following command:
